@@ -50,5 +50,10 @@
   margin-right: 3px;
 }
 
+/* hero section */
+/* .hero-div{
+  background: linear-gradient(to right , rgba(1, 50, 35, 1));
+} */
+
 
 @import "tailwindcss"
