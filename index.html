@@ -8,6 +8,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- iconify icon cdn -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <!-- font link hind madurai -->   
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
@@ -35,7 +37,7 @@
             <div class="flex inter-font">
                 <div class="flex items-center nav-right-div rounded-4xl leading-none bg-[#41ff6b1a]">
                     <p class="font-black text-[16px]">0</p>
-                    <div><i class="fa-solid fa-heart text-red-500"></i></div>
+                    <div class="h-6 w-6 ml-0.5"><img src="./assets/heart.png" alt="heart-icon"></div>
                 </div>
                 <div class="flex items-center nav-right-div rounded-4xl bg-[#41ff6b1a] leading-none">
                     <p class="font-black text-[16px]">100</p>
@@ -65,5 +67,338 @@
             <p>Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh </p>
         </div>
     </div>  
+
+    <!-- main section -->
+
+    <!-- Card section -->
+
+    <div class="bg-[#41ff6b1a] py-14">
+      <div class="flex justify-between gap-7 max-w-[1450px] mx-auto">
+        <div class="grid grid-cols-3 grid-rows-3 gap-7">
+
+            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl">
+                <div class="flex items-center justify-between">
+                    <div class="p-3 bg-[#FFE3E2] rounded-2xl">
+                        <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
+                    </div>
+                    <div class="text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div>
+                    <p class="hind-madurai-font text-2xl font-bold leading-none mt-4 mb-1">National Emergency Number</p>
+                    <p class="inter-font text-[18px] font-normal text-[#5C5C5C]">National Emergency</p>
+                </div>
+                <div class="inter-font mb-6">
+                    <p class="font-bold text-[32px] mt-6 mb-1">999</p>
+                    <p class="text-[18px] text-[#5C5C5C] bg-[#F2F2F2] font-normal w-14 rounded-3xl py-2 items-center justify-center flex">All</p>
+                </div>
+
+                <div class="inter-font flex gap-2">
+
+                    <div class="border-[#D4D6D5] border-2 w-1/2 flex items-center justify-center gap-1 py-2.5 rounded-xl">
+                        <iconify-icon icon="solar:copy-linear"></iconify-icon><button class="text-[#5C5C5C]">Copy</button>
+                    </div>
+
+                    <div class="w-1/2 flex justify-center items-center gap-1 py-2.5 bg-[#00A63E] rounded-xl">
+                       <div class="h-4.5 w-4 flex items-end">
+                         <iconify-icon icon="ph:phone-bold" class="text-white font-bold"></iconify-icon>
+                       </div>
+                        <button class="text-white">Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl flex flex-col justify-between">
+                <div class="flex items-center justify-between">
+                    <div class="p-3 bg-[#DFEFFF] rounded-2xl">
+                        <img class="w-8 h-8" src="./assets/police.png" alt="emergency-img">
+                    </div>
+                    <div class="text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div>
+                    <p class="hind-madurai-font text-2xl font-bold leading-none mt-4 mb-1">Police Helpline Number</p>
+                    <p class="inter-font text-[18px] font-normal  text-[#5C5C5C]">Police</p>
+                </div>
+                <div class="inter-font mb-6">
+                    <p class="font-bold text-[32px] mt-9 mb-1">999</p>
+                    <p class="text-[18px] text-[#5C5C5C] bg-[#F2F2F2] font-normal w-1/3 px-4 rounded-3xl py-2 items-center justify-center flex">Police</p>
+                </div>
+
+                <div class="inter-font flex gap-2">
+
+                    <div class="border-[#D4D6D5] border-2 w-1/2 flex items-center justify-center gap-1 py-2.5 rounded-xl">
+                        <iconify-icon icon="solar:copy-linear"></iconify-icon><button class="text-[#5C5C5C]">Copy</button>
+                    </div>
+
+                    <div class="w-1/2 flex justify-center items-center gap-1 py-2.5 bg-[#00A63E] rounded-xl">
+                       <div class="h-4.5 w-4 flex items-end">
+                         <iconify-icon icon="ph:phone-bold" class="text-white font-bold"></iconify-icon>
+                       </div>
+                        <button class="text-white">Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl flex flex-col justify-between">
+                <div class="flex items-center justify-between">
+                    <div class="p-3 bg-[#FFE3E2] rounded-2xl">
+                        <img class="w-8 h-8" src="./assets/fire-service.png" alt="emergency-img">
+                    </div>
+                    <div class="text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div>
+                    <p class="hind-madurai-font text-2xl font-bold leading-none mt-4 mb-1">Fire Service Number</p>
+                    <p class="inter-font text-[18px] font-normal text-[#5C5C5C]">Fire Service</p>
+                </div>
+                <div class="inter-font mb-6">
+                    <p class="font-bold text-[32px] mt-10 mb-1">999</p>
+                    <p class="text-[18px] text-[#5C5C5C] bg-[#F2F2F2] font-normal w-14 rounded-3xl py-2 items-center justify-center flex">All</p>
+                </div>
+
+                <div class="inter-font flex gap-2">
+
+                    <div class="border-[#D4D6D5] border-2 w-1/2 flex items-center justify-center gap-1 py-2.5 rounded-xl">
+                        <iconify-icon icon="solar:copy-linear"></iconify-icon><button class="text-[#5C5C5C]">Copy</button>
+                    </div>
+
+                    <div class="w-1/2 flex justify-center items-center gap-1 py-2.5 bg-[#00A63E] rounded-xl">
+                       <div class="h-4.5 w-4 flex items-end">
+                         <iconify-icon icon="ph:phone-bold" class="text-white font-bold"></iconify-icon>
+                       </div>
+                        <button class="text-white">Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl flex flex-col justify-between">
+                <div class="flex items-center justify-between">
+                    <div class="p-3 bg-[#FFE3E2] rounded-2xl">
+                        <img class="w-8 h-8" src="./assets/ambulance.png" alt="emergency-img">
+                    </div>
+                    <div class="text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div>
+                    <p class="hind-madurai-font text-2xl font-bold leading-none mt-4 mb-1">Ambulance Service</p>
+                    <p class="inter-font text-[18px] font-normal text-[#5C5C5C]">Ambulance</p>
+                </div>
+                <div class="inter-font mb-6">
+                    <p class="font-bold text-[32px] mt-10 mb-1">1994-999999</p>
+                    <p class="text-[18px] text-[#5C5C5C] bg-[#F2F2F2] font-normal w-1/3 rounded-3xl py-2 items-center justify-center flex">Health</p>
+                </div>
+
+                <div class="inter-font flex gap-2">
+
+                    <div class="border-[#D4D6D5] border-2 w-1/2 flex items-center justify-center gap-1 py-2.5 rounded-xl">
+                        <iconify-icon icon="solar:copy-linear"></iconify-icon><button class="text-[#5C5C5C]">Copy</button>
+                    </div>
+
+                    <div class="w-1/2 flex justify-center items-center gap-1 py-2.5 bg-[#00A63E] rounded-xl">
+                       <div class="h-4.5 w-4 flex items-end">
+                         <iconify-icon icon="ph:phone-bold" class="text-white font-bold"></iconify-icon>
+                       </div>
+                        <button class="text-white">Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl flex flex-col justify-between">
+                <div class="flex items-center justify-between">
+                    <div class="p-3 bg-[#FFE3E2] rounded-2xl">
+                        <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
+                    </div>
+                    <div class="text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div>
+                    <p class="hind-madurai-font text-2xl font-bold leading-none mt-4 mb-1">Women & Child Helpline</p>
+                    <p class="inter-font text-[18px] font-normal text-[#5C5C5C]">Women & Child Helpline</p>
+                </div>
+                <div class="inter-font mb-6">
+                    <p class="font-bold text-[32px] mt-10 mb-1">109</p>
+                    <p class="text-[18px] text-[#5C5C5C] bg-[#F2F2F2] font-normal w-1/4 rounded-3xl py-2 items-center justify-center flex">Help</p>
+                </div>
+
+                <div class="inter-font flex gap-2">
+
+                    <div class="border-[#D4D6D5] border-2 w-1/2 flex items-center justify-center gap-1 py-2.5 rounded-xl">
+                        <iconify-icon icon="solar:copy-linear"></iconify-icon><button class="text-[#5C5C5C]">Copy</button>
+                    </div>
+
+                    <div class="w-1/2 flex justify-center items-center gap-1 py-2.5 bg-[#00A63E] rounded-xl">
+                       <div class="h-4.5 w-4 flex items-end">
+                         <iconify-icon icon="ph:phone-bold" class="text-white font-bold"></iconify-icon>
+                       </div>
+                        <button class="text-white">Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl flex flex-col justify-between">
+                <div class="flex items-center justify-between">
+                    <div class="p-3 bg-[#FFE3E2] rounded-2xl">
+                        <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
+                    </div>
+                    <div class="text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div>
+                    <p class="hind-madurai-font text-2xl font-bold leading-none mt-4 mb-1">Anti-Corruption Helpline</p>
+                    <p class="inter-font text-[18px] font-normal text-[#5C5C5C]">Anti-Corruption</p>
+                </div>
+                <div class="inter-font mb-6">
+                    <p class="font-bold text-[32px] mt-10 mb-1">999</p>
+                    <p class="text-[18px] text-[#5C5C5C] bg-[#F2F2F2] font-normal w-1/4 rounded-3xl py-2 items-center justify-center flex">Govt.</p>
+                </div>
+
+                <div class="inter-font flex gap-2">
+
+                    <div class="border-[#D4D6D5] border-2 w-1/2 flex items-center justify-center gap-1 py-2.5 rounded-xl">
+                        <iconify-icon icon="solar:copy-linear"></iconify-icon><button class="text-[#5C5C5C]">Copy</button>
+                    </div>
+
+                    <div class="w-1/2 flex justify-center items-center gap-1 py-2.5 bg-[#00A63E] rounded-xl">
+                       <div class="h-4.5 w-4 flex items-end">
+                         <iconify-icon icon="ph:phone-bold" class="text-white font-bold"></iconify-icon>
+                       </div>
+                        <button class="text-white">Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl">
+                <div class="flex items-center justify-between">
+                    <div class="p-3 bg-[#FFE3E2] rounded-2xl">
+                        <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
+                    </div>
+                    <div class="text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div>
+                    <p class="hind-madurai-font text-2xl font-bold leading-none mt-4 mb-1">National Emergency Number</p>
+                    <p class="inter-font text-[18px] font-normal text-[#5C5C5C]">National Emergency</p>
+                </div>
+                <div class="inter-font mb-6">
+                    <p class="font-bold text-[32px] mt-6 mb-1">999</p>
+                    <p class="text-[18px] text-[#5C5C5C] bg-[#F2F2F2] font-normal w-14 rounded-3xl py-2 items-center justify-center flex">All</p>
+                </div>
+
+                <div class="inter-font flex gap-2">
+
+                    <div class="border-[#D4D6D5] border-2 w-1/2 flex items-center justify-center gap-1 py-2.5 rounded-xl">
+                        <iconify-icon icon="solar:copy-linear"></iconify-icon><button class="text-[#5C5C5C]">Copy</button>
+                    </div>
+
+                    <div class="w-1/2 flex justify-center items-center gap-1 py-2.5 bg-[#00A63E] rounded-xl">
+                       <div class="h-4.5 w-4 flex items-end">
+                         <iconify-icon icon="ph:phone-bold" class="text-white font-bold"></iconify-icon>
+                       </div>
+                        <button class="text-white">Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl">
+                <div class="flex items-center justify-between">
+                    <div class="p-3 bg-[#FFE3E2] rounded-2xl">
+                        <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
+                    </div>
+                    <div class="text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div>
+                    <p class="hind-madurai-font text-2xl font-bold leading-none mt-4 mb-1">National Emergency Number</p>
+                    <p class="inter-font text-[18px] font-normal text-[#5C5C5C]">National Emergency</p>
+                </div>
+                <div class="inter-font mb-6">
+                    <p class="font-bold text-[32px] mt-6 mb-1">999</p>
+                    <p class="text-[18px] text-[#5C5C5C] bg-[#F2F2F2] font-normal w-14 rounded-3xl py-2 items-center justify-center flex">All</p>
+                </div>
+
+                <div class="inter-font flex gap-2">
+
+                    <div class="border-[#D4D6D5] border-2 w-1/2 flex items-center justify-center gap-1 py-2.5 rounded-xl">
+                        <iconify-icon icon="solar:copy-linear"></iconify-icon><button class="text-[#5C5C5C]">Copy</button>
+                    </div>
+
+                    <div class="w-1/2 flex justify-center items-center gap-1 py-2.5 bg-[#00A63E] rounded-xl">
+                       <div class="h-4.5 w-4 flex items-end">
+                         <iconify-icon icon="ph:phone-bold" class="text-white font-bold"></iconify-icon>
+                       </div>
+                        <button class="text-white">Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl">
+                <div class="flex items-center justify-between">
+                    <div class="p-3 bg-[#FFE3E2] rounded-2xl">
+                        <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
+                    </div>
+                    <div class="text-[#5C5C5C]"><i class="fa-regular fa-heart"></i></div>
+                </div>
+                <div>
+                    <p class="hind-madurai-font text-2xl font-bold leading-none mt-4 mb-1">National Emergency Number</p>
+                    <p class="inter-font text-[18px] font-normal text-[#5C5C5C]">National Emergency</p>
+                </div>
+                <div class="inter-font mb-6">
+                    <p class="font-bold text-[32px] mt-6 mb-1">999</p>
+                    <p class="text-[18px] text-[#5C5C5C] bg-[#F2F2F2] font-normal w-14 rounded-3xl py-2 items-center justify-center flex">All</p>
+                </div>
+
+                <div class="inter-font flex gap-2">
+
+                    <div class="border-[#D4D6D5] border-2 w-1/2 flex items-center justify-center gap-1 py-2.5 rounded-xl">
+                        <iconify-icon icon="solar:copy-linear"></iconify-icon><button class="text-[#5C5C5C]">Copy</button>
+                    </div>
+
+                    <div class="w-1/2 flex justify-center items-center gap-1 py-2.5 bg-[#00A63E] rounded-xl">
+                       <div class="h-4.5 w-4 flex items-end">
+                         <iconify-icon icon="ph:phone-bold" class="text-white font-bold"></iconify-icon>
+                       </div>
+                        <button class="text-white">Call</button>
+                    </div>
+
+                </div>
+            </div>
+
+        <!-- history section  -->
+
+        </div> 
+        <div class="w-[400px] bg-white leading-none shadow-lg rounded-xl ">
+            <div>
+               <div class="inter-font flex justify-between items-center mx-6 pt-3">
+                    <div class="flex items-center justify-center gap-1">
+                    <div class="w-6 h-6">
+                        <iconify-icon icon="fluent:clock-16-regular" class="text-2xl text-[#5C5C5C]"></iconify-icon>
+                    </div>
+                    
+                    <p class="text-[20px] font-medium">Call History</p>
+                    </div>
+
+                    <div class="px-5 py-3.5 rounded-4xl bg-[#00A63E] text-[16px] font-semibold text-white">
+                        <button>Clear</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mx-6 mb-3 py-2 mt-2 flex justify-between items-center rounded-xl bg-[#FAFAFA]">
+                <div class="ml-2">
+                    <p class="inter-font font-semibold text-[18px] mb-3">Fire Service Number</p>
+                    <p class="hind-madurai-font text-[#5C5C5C] text-[18px]">999</p>
+                </div>
+                <div>
+                    <p class="hind-madurai-font text-[18px] mr-2">
+                        11:36:58 AM
+                    </p>
+                </div>
+            </div>
+
+        </div>
+      </div>  
+    </div>
+
 </body>
 </html>
