@@ -23,29 +23,31 @@
 <body class="">
     <!-- navbar section -->
     <div>
-    <nav class="max-w-[1450px] mx-auto">
-       <div class="flex justify-between items-center py-4">
+    <nav class="max-w-[1450px] mx-auto px-6 2xl:px-0">
+       <div class="flex flex-col sm:flex-row sm:justify-between gap-5 sm:gap-0 items-center py-4">
             <div class="flex items-center">
             <div class="h-[50px] w-[50px]">
                 <img src="assets/logo.png" alt="BD logo" >
             </div>
             <div class="text-[#006747] font-bold text-xl ml-3 leading-none hind-madurai-font">
-                <p>Emergency<br>Service</p>
+                <p>Emergency<br class="hidden sm:block"> Service</p>
             </div>
             </div>
 
-            <div class="flex inter-font">
-                <div class="flex items-center nav-right-div rounded-4xl leading-none bg-[#41ff6b1a]">
+            <div class="flex flex-col sm:flex-row items-center justify-between inter-font">
+                <div class="flex justify-between gap-5.5 sm:gap-0 mb-5.5 sm:mb-0">
+                    <div class="flex items-center nav-right-div ml-0 sm:ml-5 rounded-4xl leading-none bg-[#41ff6b1a]">
                     <p class="font-black text-[16px]">0</p>
                     <div class="h-6 w-6 ml-0.5"><img src="./assets/heart.png" alt="heart-icon"></div>
                 </div>
-                <div class="flex items-center nav-right-div rounded-4xl bg-[#41ff6b1a] leading-none">
+                <div class="flex items-center nav-right-div rounded-4xl bg-[#41ff6b1a] leading-none ml-0 sm:ml-5 ">
                     <p class="font-black text-[16px]">100</p>
                     <div class="h-6 w-6 ml-0.5">
                         <img src="./assets/coin.png" alt="icon">
                     </div>
                 </div>
-                <div class="flex items-center gap-1 px-12 ml-5 rounded-4xl bg-[#00A63E] leading-none text-[16px] font-semibold text-white">
+                </div>
+                <div class=" flex items-center py-3.5  gap-1 px-8 ml-0 sm:ml-5 rounded-4xl bg-[#00A63E] leading-none text-[16px] font-semibold text-white">
                     <p>2</p>
                     <p>Copy</p>
                 </div>
@@ -56,15 +58,21 @@
     <!-- hero section -->
     <div class="hero-div  
     bg-[linear-gradient(to_right,#013223_0%,#006747_50%,#013223_100%)] 
-    flex flex-col justify-center items-center leading-none py-5">
+    flex flex-col justify-center items-center leading-none py-5 ">
         <div class="w-23 h-23">
             <img src="./assets/logo-dark.png" alt="icon">
         </div>
         <div class="hind-madurai-font text-[40px] font-bold text-white my-3">
-            <p>Emergency Service Directory</p>
+             <p class="text-center px-4">
+                Emergency 
+
+                <span class="block sm:inline mt-3 sm:mt-0">Service</span>
+
+                <span class="block sm:inline mt-3 sm:mt-0">Directory</span>
+            </p>
         </div>
-        <div class="hind-madurai-font text-[20px] font-semibold text-white">
-            <p>Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh </p>
+        <div class="hind-madurai-font px-8 text-[20px] font-semibold text-white">
+            <p class="text-center">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh </p>
         </div>
     </div>  
 
@@ -73,10 +81,12 @@
     <!-- Card section -->
 
     <div class="bg-[#41ff6b1a] py-14">
-      <div class="flex justify-between gap-7 max-w-[1450px] mx-auto">
-        <div class="grid grid-cols-3 grid-rows-3 gap-7">
 
-            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl">
+      <div class="flex justify-between flex-col-reverse md:flex-row gap-7 max-w-[1450px] mx-auto px-4 2xl:px-0">
+
+        <div class=" md:w-1/2 lg:w-3/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 grid-rows-1 sm:grid-rows-2 md:grid-rows-1 lg:grid-rows-2 xl:grid-rows-3 gap-7">
+
+            <div class=" bg-white leading-none p-8 shadow-lg xl:max-w-[400px] rounded-2xl flex flex-col justify-between">
                 <div class="flex items-center justify-between">
                     <div class="p-3 bg-[#FFE3E2] rounded-2xl">
                         <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
@@ -108,7 +118,7 @@
                 </div>
             </div>
 
-            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl flex flex-col justify-between">
+            <div class=" bg-white leading-none p-8 shadow-lg xl:max-w-[400px] rounded-2xl flex flex-col justify-between">
                 <div class="flex items-center justify-between">
                     <div class="p-3 bg-[#DFEFFF] rounded-2xl">
                         <img class="w-8 h-8" src="./assets/police.png" alt="emergency-img">
@@ -140,7 +150,7 @@
                 </div>
             </div>
 
-            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl flex flex-col justify-between">
+            <div class=" bg-white leading-none p-8 shadow-lg xl:max-w-[400px] rounded-2xl flex flex-col justify-between">
                 <div class="flex items-center justify-between">
                     <div class="p-3 bg-[#FFE3E2] rounded-2xl">
                         <img class="w-8 h-8" src="./assets/fire-service.png" alt="emergency-img">
@@ -172,7 +182,7 @@
                 </div>
             </div>
 
-            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl flex flex-col justify-between">
+            <div class=" bg-white leading-none p-8 shadow-lg xl:max-w-[400px] rounded-2xl flex flex-col justify-between">
                 <div class="flex items-center justify-between">
                     <div class="p-3 bg-[#FFE3E2] rounded-2xl">
                         <img class="w-8 h-8" src="./assets/ambulance.png" alt="emergency-img">
@@ -204,7 +214,7 @@
                 </div>
             </div>
 
-            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl flex flex-col justify-between">
+            <div class=" bg-white leading-none p-8 shadow-lg xl:max-w-[400px] rounded-2xl flex flex-col justify-between">
                 <div class="flex items-center justify-between">
                     <div class="p-3 bg-[#FFE3E2] rounded-2xl">
                         <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
@@ -236,7 +246,7 @@
                 </div>
             </div>
 
-            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl flex flex-col justify-between">
+            <div class=" bg-white leading-none p-8 shadow-lg xl:max-w-[400px] rounded-2xl flex flex-col justify-between">
                 <div class="flex items-center justify-between">
                     <div class="p-3 bg-[#FFE3E2] rounded-2xl">
                         <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
@@ -268,7 +278,7 @@
                 </div>
             </div>
 
-            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl">
+            <div class=" bg-white leading-none p-8 shadow-lg xl:max-w-[400px] rounded-2xl">
                 <div class="flex items-center justify-between">
                     <div class="p-3 bg-[#FFE3E2] rounded-2xl">
                         <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
@@ -300,7 +310,7 @@
                 </div>
             </div>
 
-            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl">
+            <div class=" bg-white leading-none p-8 shadow-lg xl:max-w-[400px] rounded-2xl">
                 <div class="flex items-center justify-between">
                     <div class="p-3 bg-[#FFE3E2] rounded-2xl">
                         <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
@@ -332,7 +342,7 @@
                 </div>
             </div>
 
-            <div class=" bg-white leading-none p-8 shadow-lg max-w-[400px] rounded-2xl">
+            <div class=" bg-white leading-none p-8 shadow-lg xl:max-w-[400px] rounded-2xl">
                 <div class="flex items-center justify-between">
                     <div class="p-3 bg-[#FFE3E2] rounded-2xl">
                         <img class="w-8 h-8" src="./assets/emergency.png" alt="emergency-img">
@@ -367,7 +377,7 @@
         <!-- history section  -->
 
         </div> 
-        <div class="w-[400px] bg-white leading-none shadow-lg rounded-xl ">
+        <div class="w-full md:w-1/2 lg:w-1/3 xl:max-w-[400px] bg-white leading-none shadow-lg rounded-xl ">
             <div>
                <div class="inter-font flex justify-between items-center mx-6 pt-3">
                     <div class="flex items-center justify-center gap-1">
